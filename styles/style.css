@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+:root{
+  /* Primary color */
+  --darkblue-intro-email-bg :hsl(217, 28%, 15%);
+  --darkblue-main-bg : hsl(218, 28%, 13%);
+  --darkblue-footer-bg : hsl(216, 53%, 9%);
+  --darkblue-testimonial-bg : hsl(219, 30%, 18%);
+  /* Accent color */
+  --cyan-action : hsl(176, 68%, 64%);
+  --blue-action : hsl(198, 60%, 50%);
+  --red-error : (0, 100%, 63%);
+  /* Neutral color */
+  --neutral-white : hsl(0, 0%, 100%);
+}
+body{
+  background-color: var(--darkblue-intro-email-bg);
+}
+img{
+  display: block;
+  width: 100%;
+  user-select: none;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn{
+  border: none;
+  outline: none;
+  background-color: var(--blue-action); 
+  padding: 1rem 5rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  transition: .1s all ease-in-out;
+}
+.btn:hover{
+  background-color: var(--cyan-action);
+}
+h1{
+  font-size: 2rem;
+  color: var(--neutral-white);
+}
+p{
+  color: var(--neutral-white);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+a,.btn{
+  text-decoration: none;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+  color: var(--neutral-white);
+}

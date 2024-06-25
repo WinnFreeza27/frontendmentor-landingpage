@@ -10,6 +10,7 @@ Welcome to the Landing Page project! This project is a solution to a Frontend Me
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Style Guide](#style-guide)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -63,6 +64,9 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Style Guide
+For detailed information on the design specifications, refer to the [Style Guide](style-guide.md).
 
 ## License
 

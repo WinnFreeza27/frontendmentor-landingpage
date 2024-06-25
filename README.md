@@ -25,7 +25,7 @@ This project is a landing page designed to meet the requirements of a challenge 
 
 ## Demo
 
-You can view a live demo of the project [here](#). (Replace `#` with the link to your live demo)
+You can view a live demo of the project [here](https://lbot-landing-page.vercel.app/).
 
 ## Installation
 
